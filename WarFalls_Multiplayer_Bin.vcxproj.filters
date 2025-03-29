@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mp">
+      <UniqueIdentifier>{0c94005d-fa56-4472-ac35-68a310eefeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mp\base_mp">
+      <UniqueIdentifier>{583ac563-ca66-4054-8df2-e73d4fa06ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mp\game_mode_mp">
+      <UniqueIdentifier>{38c27bad-e8b0-458a-b19f-75aa067cf270}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mp\base_mp\mp_variables.h">
+      <Filter>mp\base_mp</Filter>
+    </ClInclude>
+    <ClInclude Include="mp\base_mp\mp_team_death_match.h">
+      <Filter>mp\game_mode_mp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mp\base_mp\mp_variables.cpp">
+      <Filter>mp\base_mp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
