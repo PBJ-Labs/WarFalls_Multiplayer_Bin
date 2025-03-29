@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Hunter\source\repos\WarFalls_Multiplayer_Bin\mp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Hunter\source\repos\WarFalls_Multiplayer_Bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,9 +130,12 @@
   <ItemGroup>
     <ClInclude Include="mp\base_mp\mp_team_death_match.h" />
     <ClInclude Include="mp\base_mp\mp_variables.h" />
+    <ClInclude Include="mp_death_match.h" />
+    <ClInclude Include="mp_player\mp_player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mp\base_mp\mp_variables.cpp" />
+    <ClCompile Include="mp_player\mp_player.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
