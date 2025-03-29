@@ -3,7 +3,7 @@
 
 /*?
 	mp_variables.h copyright @valuewardgames 2025 
-		-Praise The Lord-
+		-Praise Be To The Lord-
 	File Created : Saturday, March 29th
 ?*/
 

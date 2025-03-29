@@ -1,7 +1,9 @@
 #ifndef MP_TEAM_DEATH_MATCH_H
 #define MP_TEAM_DEATH_MATCH_H
 
-#include "base_mp/mp_variables.h"
+//praise be to the lord
+
+#include "mp/base_mp/mp_variables.h"
 
 //pointer base
 MultiplayerVariables * mp_element;
