@@ -1,6 +1,7 @@
 #ifndef MP_PLAYER_H
 #define MP_PLAYER_H
 
+//priase be to the lord
 #include "mp/base_mp/mp_variables.h"
 
 class MpPlayer {
